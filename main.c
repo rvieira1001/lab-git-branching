@@ -10,7 +10,7 @@
 
 int main(int argc, char* argv[]) {
     printf("_Hello, World!_");
-    printf("\nHello %s!", argv[1]);
+    printf("\nHello %s!", argv[1]); /* adiciondo pt br?
     
     return 0;
 }
