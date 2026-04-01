@@ -7,10 +7,13 @@
  * Autores: Rafael, igor, vitor
  */
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, char* argv[]) {
-    printf("_Hello, World!_");
-    printf("\nHello %s!", argv[1]);
+    if (strcmp(arg[2], "pt-br") == 0)
+        printf("\nOlá, %s!", argv[1]);
+    else
+        printf("\nHello, %s!", argv[1]);
     
     return 0;
 }
