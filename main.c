@@ -12,6 +12,8 @@
 int main(int argc, char* argv[]) {
     if (strcmp(argv[2], "pt-br") == 0)
         printf("\nOlá, %s!", argv[1]);/* adiciondo pt br? */
+    else if (strcmp(argv[2], "es") == 0)
+    	printf("\nHola, %s!", argv[1]);/* adicionando espanhol */
     else
         printf("\nHello, %s!", argv[1]);
     
